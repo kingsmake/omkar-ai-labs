@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Omkar AI Labs — a student-led AI and software innovation initiative building practical intelligent systems.">
+  <title>Omkar AI Labs — Student-led AI Innovation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grid-bg"></div>
+
+  <nav class="nav">
+    <a class="brand" href="#home">
+      <span class="brand-mark">O</span>
+      <span>OMKAR AI LABS</span>
+    </a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#focus">Focus</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> STUDENT-LED AI & SOFTWARE INNOVATION</div>
+        <h1>Building ideas into <span>intelligent systems.</span></h1>
+        <p class="lead">
+          Omkar AI Labs is a student-led innovation initiative exploring practical AI,
+          computer vision, intelligent optimization, and modern software engineering.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">Explore Projects <span>↗</span></a>
+          <a class="btn secondary" href="#contact">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="orbital-card">
+        <div class="orbit orbit-1"></div>
+        <div class="orbit orbit-2"></div>
+        <div class="core">AI</div>
+        <div class="node n1">CV</div>
+        <div class="node n2">ML</div>
+        <div class="node n3">OPT</div>
+        <div class="node n4">DEV</div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="two-col">
+        <div>
+          <h2>From academic projects to practical innovation.</h2>
+        </div>
+        <div>
+          <p>
+            Omkar AI Labs is currently focused on learning, experimentation, and
+            prototype development. The initiative brings together AI concepts,
+            software engineering, and real-world problem solving through student-built
+            projects.
+          </p>
+          <p>
+            Our goal is to turn promising academic ideas into useful, testable
+            technology while continuously improving engineering and Applied AI skills.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-label">02 / PROJECTS</div>
+      <div class="project-grid">
+        <article class="project featured">
+          <div class="project-top">
+            <span class="tag">CURRENT PROJECT</span>
+            <span class="project-code">01</span>
+          </div>
+          <h3>S.T.R.I.D.E.</h3>
+          <p class="expanded">
+            Swarm-based Traffic Routing and Intelligent Density Engine — an AI-driven
+            urban traffic management prototype using computer vision for traffic-density
+            analysis and Particle Swarm Optimization for dynamic routing and emergency
+            green-corridor prioritization.
+          </p>
+          <div class="tech">
+            <span>YOLOv8</span><span>Computer Vision</span><span>PSO</span><span>AI</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-top">
+            <span class="tag muted">EXPLORATION</span>
+            <span class="project-code">02</span>
+          </div>
+          <h3>AI & Software Prototypes</h3>
+          <p>
+            A growing portfolio of academic and experimental projects exploring
+            intelligent automation, web applications, data-driven systems, and
+            AI-assisted development.
+          </p>
+          <div class="tech">
+            <span>Machine Learning</span><span>Web</span><span>Software</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="focus">
+      <div class="section-label">03 / FOCUS</div>
+      <div class="focus-grid">
+        <div class="focus-card"><b>01</b><h3>Applied AI</h3><p>Turning AI concepts into useful prototypes and workflows.</p></div>
+        <div class="focus-card"><b>02</b><h3>Computer Vision</h3><p>Exploring visual intelligence for real-world environments.</p></div>
+        <div class="focus-card"><b>03</b><h3>Intelligent Optimization</h3><p>Applying optimization techniques to complex decision problems.</p></div>
+        <div class="focus-card"><b>04</b><h3>Software Engineering</h3><p>Building reliable, maintainable applications around intelligent systems.</p></div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div>
+        <div class="section-label">04 / CONNECT</div>
+        <h2>Let's build something useful.</h2>
+        <p>For collaboration, project discussions, or technical conversations.</p>
+      </div>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/omkar-tupe-10293t" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="https://github.com/kingsmake" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Omkar AI Labs</span>
+    <span>Student-led AI & Software Innovation</span>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
